@@ -1,0 +1,100 @@
+<div class="contact-container">
+  <form [formGroup]="contactForm" (ngSubmit)="onSubmit()" class="contact-form">
+    <label for="name">YOUR NAME</label>
+    <div class="input-group">
+      <input type="text" id="name" formControlName="name" placeholder="Enter Your Name" />
+      <i class="fa fa-user"></i>
+    </div>
+    <div class="error" *ngIf="
+        contactForm.get('name')?.touched && contactForm.get('name')?.invalid
+      ">
+      <small *ngIf="contactForm.get('name')?.errors?.['required']">Name is required.</small>
+    </div>
+
+    <!-- EMAIL FIELD -->
+    <label for="email">YOUR EMAIL</label>
+    <div class="input-group">
+      <input type="email" id="email" formControlName="email" placeholder="Enter Your Email" />
+      <i class="fa fa-envelope"></i>
+    </div>
+    <div class="error" *ngIf="
+        contactForm.get('email')?.touched && contactForm.get('email')?.invalid
+      ">
+      <small *ngIf="contactForm.get('email')?.errors?.['required']">Email is required.</small>
+      <small *ngIf="contactForm.get('email')?.errors?.['email']">Invalid email format.</small>
+    </div>
+
+    <!-- SUBJECT FIELD -->
+    <label for="subject">SUBJECT</label>
+    <div class="input-group">
+      <input type="text" id="subject" formControlName="subject" placeholder="Enter Your Subject" />
+      <i class="fa fa-folder"></i>
+    </div>
+    <div class="error" *ngIf="
+        contactForm.get('subject')?.touched &&
+        contactForm.get('subject')?.invalid
+      ">
+      <small *ngIf="contactForm.get('subject')?.errors?.['required']">Subject is required.</small>
+    </div>
+
+    <label for="message">YOUR MESSAGE (OPTIONAL)</label>
+    <div class="input-group">
+      <textarea id="message" formControlName="message" placeholder="Enter Your Message"></textarea>
+      <i class="fa fa-comments"></i>
+    </div>
+
+    <!-- <button type="button" disabled title="This feature is under development.">
+  SUBMIT (Under Working)
+</button> -->
+
+  </form>
+
+  <div class="contact-info">
+    <h4 class="highlight">Contact Info to</h4>
+    <h2>Reach Our Expert Team</h2>
+    <p>
+      Send a message through given form, If your enquiry is time sensitive
+      please use below contact details.
+    </p>
+
+    <div class="info-card">
+      <i class="fa fa-map-marker-alt"></i>
+      <div>
+        <strong>Operations Address</strong><br />
+        1st Floor, 52, 80 Feet Road, 8th Phase, JP Nagar, Kothnur, Bengaluru, Karnataka - 560076
+      </div>
+    </div>
+    <div class="info-card">
+      <i class="fa fa-map-marker-alt"></i>
+      <div>
+        <strong>Register Address</strong><br />
+        122, 2nd Floor, CTR Building, 4th Main, Royal Lake Front Layout, 8th Phase, JP Nagar, Kothnur, Bengaluru, Karnataka - 560076
+      </div>
+    </div>
+    <div class="info-card">
+      <i class="fa fa-phone"></i>
+      <div>
+        <strong>General Enquires</strong><br />
+        Phone: +91-8079659576 , +91-8985936618
+      </div>
+    </div>
+
+    <div class="info-card">
+      <i class="fa fa-envelope"></i>
+      <div>
+        <strong>Official Email</strong><br />
+        Email:
+        <a href="mailto:info@enrivolv.com">info&#64;enrivolv.com</a> |
+        <a href="mailto:india@enrivolv.in">india&#64;enrivolv.in</a>
+      </div>
+    </div>
+
+    <div class="info-card">
+      <i class="fa fa-clock"></i>
+      <div>
+        <strong>Operation Hours</strong><br />
+        Monday - Firday: 09.00 AM to 06.00 PM (Sunday & Sunday: Closed)
+      </div>
+    </div>
+  </div>
+</div>
