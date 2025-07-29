@@ -1,0 +1,62 @@
+{
+    "": {
+        "title": "Home - Enrivolv IT Solutions Pvt. Ltd.®",
+        "description": "Welcome to Enrivolv IT Solutions – Innovating with DevOps, Cloud, AI, and Digital Solutions.",
+        "keywords": "Enrivolv, IT Solutions, DevOps, Cloud, AI, Digital Transformation"
+    },
+    "about-us": {
+        "title": "About Us - Enrivolv IT Solutions Pvt. Ltd.®",
+        "description": "Learn about Enrivolv’s mission, vision, and innovation in delivering IT excellence.",
+        "keywords": "About Enrivolv, IT Company, DevOps Experts, Cloud Services"
+    },
+    "services": {
+        "title": "IT Services - Enrivolv IT Solutions Pvt. Ltd.®",
+        "description": "Explore the full spectrum of IT services offered by Enrivolv IT Solutions Pvt. Ltd.®, including custom software development, cloud & DevOps, mobile apps, API integrations, automation, and enterprise platforms tailored to your industry.",
+        "keywords": "IT Services, Software Development, Web Development, Mobile Apps, DevOps, Cloud Solutions, API Integrations, SaaS Platforms, Automation Testing, Enterprise IT Solutions, Enrivolv Services"
+    },
+    "partners": {
+        "title": "Our Partners - Enrivolv IT Solutions Pvt. Ltd.®",
+        "description": "Meet our strategic technology partners who empower Enrivolv IT Solutions to deliver world-class DevOps, Cloud, AI, and Digital Transformation services.",
+        "keywords": "Enrivolv Partners, Technology Partners, IT Collaborations, Cloud Alliances, DevOps Partnerships, Strategic IT Partners"
+    },
+    "data-ai": {
+        "title": "Data & AI Services - Enrivolv IT Solutions Pvt. Ltd.®",
+        "description": "Unlock business potential with Enrivolv's Data and AI services. From predictive analytics to intelligent automation, we deliver data-driven solutions that transform enterprises.",
+        "keywords": "Data and AI Services, Artificial Intelligence, Machine Learning, Predictive Analytics, Data Science, Business Intelligence, Enrivolv AI Solutions"
+    },
+    "devops": {
+        "title": "DevOps Services - Enrivolv IT Solutions Pvt. Ltd.®",
+        "description": "Accelerate your software delivery with Enrivolv's DevOps services. We enable CI/CD pipelines, cloud automation, containerization, and agile infrastructure management.",
+        "keywords": "DevOps Services, CI/CD Pipelines, Cloud Automation, Containerization, Kubernetes, Agile IT, DevOps Consulting, Enrivolv DevOps"
+    },
+    "cloud": {
+        "title": "Cloud Services - Enrivolv IT Solutions Pvt. Ltd.®",
+        "description": "Transform your business with scalable and secure cloud solutions from Enrivolv. We offer cloud migration, infrastructure management, and enterprise-grade cloud services.",
+        "keywords": "Cloud Services, Cloud Migration, Cloud Infrastructure, AWS, Azure, Google Cloud, Cloud Strategy, Enrivolv Cloud Solutions"
+    },
+    "cybersecurity": {
+        "title": "Cybersecurity Solutions - Enrivolv IT Solutions Pvt. Ltd.®",
+        "description": "Protect your digital assets with Enrivolv’s advanced cybersecurity services. We offer threat detection, risk assessment, penetration testing, and data protection solutions.",
+        "keywords": "Cybersecurity, Data Protection, Threat Detection, Penetration Testing, Risk Assessment, Network Security, Enrivolv Cybersecurity Services"
+    },
+    "digital-services": {
+        "title": "Digital Services - Enrivolv IT Solutions Pvt. Ltd.®",
+        "description": "Empower your brand with Enrivolv’s cutting-edge digital services. We provide digital strategy, UX/UI design, digital marketing, content creation, and technology integration.",
+        "keywords": "Digital Services, Digital Strategy, UX UI Design, Digital Marketing, Content Creation, Technology Integration, Enrivolv Digital Solutions"
+    },
+    "careers": {
+        "title": "Careers at Enrivolv IT Solutions Pvt. Ltd.®",
+        "description": "Explore exciting career opportunities at Enrivolv IT Solutions Pvt. Ltd.®. Join our innovative team and build a rewarding future in technology, development, and digital transformation.",
+        "keywords": "Careers, Jobs in IT, Software Development Careers, Enrivolv Careers, Tech Jobs, Work at Enrivolv, IT Jobs, Join Our Team"
+    },
+    "contact-us": {
+        "title": "Contact Us - Enrivolv IT Solutions Pvt. Ltd.®",
+        "description": "Get in touch with Enrivolv IT Solutions Pvt. Ltd.® for IT consulting, digital transformation, and technology services. Reach out via phone, email, or our contact form.",
+        "keywords": "Contact Enrivolv, IT Support, Get in Touch, Tech Consulting, Business Enquiry, Enrivolv IT Contact"
+    },
+    "maps": {
+        "title": "Our Global Locations - Enrivolv IT Solutions Pvt. Ltd.®",
+        "description": "Explore the global office locations of Enrivolv IT Solutions Pvt. Ltd.®. View our worldwide presence through an interactive map of our branches and service hubs.",
+        "keywords": "Enrivolv Locations, Global Offices, Company Map, IT Branches, Enrivolv Branch Locations, Worldwide Presence, Interactive Map"
+    }
+}
